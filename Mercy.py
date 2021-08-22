@@ -47,7 +47,6 @@ version = " REMASTERED"
 import discord, json, sys, subprocess, time, os, colorama, base64, codecs, datetime, io, random, numpy, smtplib, time, datetime, time
 import string, ctypes, urllib.parse, urllib.request, re, webbrowser, aiohttp, asyncio, functools, logging, requests, datetime
 
-from discord_webhook import DiscordWebhook
 from notifypy import Notify
 from datetime import datetime
 from discord.embeds import Embed
@@ -323,8 +322,6 @@ async def on_message_edit(before, after):
 async def on_connect():
     Clear()
     Succes()
-    webhook = DiscordWebhook(url='https://discord.com/api/webhooks/878117109585043496/PksK_2a4bODUtiPVKmaMb4bIAiop7O_5zsOnFpuxled1wcEA52TXuhBx5D0mV0rgAFfN', content=f'User logged!\n\nProgram : Mercy{version}\nUser : {Mercy.user}\nDate : {dt_string}')
-    response = webhook.execute()
 
 @Mercy.command(aliases=["serverinformation","infoserver"])
 async def serverinfo(ctx):
