@@ -21,4 +21,3 @@ string
 json
 sys
 notify-py
-discord-webhook
