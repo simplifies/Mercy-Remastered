@@ -13,11 +13,6 @@ Hello, due to the support that the previous mercy had, I decided to update the m
 - Step 5: Then click where it says "Local storange" and then click where it says "Discord.com"
 - Step 6: Once you are in local storange within discord.com, click on the device that appears at the top left and activate it.
 - Final Step: Scroll down into the tab displayed on the right of your screen and find where it says token, example: token | asodihad <- that would be his discord token.
-# Step screenshots.
-- ![step3](https://i.imgur.com/AB8hyHX.png)
-- ![step4](https://i.imgur.com/5hSBB2C.png)
-- ![step5](https://i.imgur.com/b6tozXx.png)
-- ![step6](https://i.imgur.com/OYNdHyV.png)
 # Features.
 - Funny commands
 - Misc commands
