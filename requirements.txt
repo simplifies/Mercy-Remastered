@@ -1,7 +1,7 @@
 discord
 colorama
 requests
-base64
+pybase64
 codecs
 datime
 io
